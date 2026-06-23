@@ -1,7 +1,7 @@
 # Vanilla TypeScript Store
 
 # Electronics Online Store (ShopJS)
-🚀 **[Посмотреть проект вживую (Live Demo)](https://5555nika/github.io/ShopJS/)**
+🚀 **[Посмотреть проект вживую (Live Demo)](https://5555nika/github.io/ShoppJS/)**
 
 A functional web application for browsing products and managing a shopping card, built with Vanilla TypeScript.
 
