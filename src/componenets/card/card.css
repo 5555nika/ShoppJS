@@ -1,0 +1,156 @@
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Inter', sans-serif;
+}
+.product {
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: .5rem;
+    display: grid;
+    grid-template-columns: minmax(300px, 400px) 1fr;
+    gap: 3rem;
+    align-items: start;
+    max-width: 900px;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .product { 
+        grid-template-columns: 1fr; 
+        gap: 15px; 
+        padding: 15px; 
+    }
+}
+        
+.product__title {
+    font-size: 1.4rem;        
+    font-weight: 700;            
+    color: #2f3542;
+    margin-bottom: 1rem;           
+    line-height: 1.2;
+}
+
+.btn {
+    text-align: center;
+    border: none;
+    background-color: dodgerblue;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: .5rem;
+    padding: .7rem;
+    transition: background-color .3s ;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(104, 167, 230);
+}
+.product__img {
+    background: #f8f9fa;
+    border-radius: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.product__img  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.product__descr {
+    font-size: 0.95rem;
+    color: #57606f;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.product__inner-price {
+    background: #f1f2f6;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.product__price {
+    font-size: 0.9rem;
+    color: #a4b0be;
+    text-decoration: line-through;
+}
+.product__price--discount {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #2f3542;
+}    
+.product__price--discount b {
+    color: #ff4757;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.basket, .home {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #f1f2f6;
+}
+
+.top-nav h1 {
+    font-size: 1.8rem;
+    color: #2f3542;
+    margin: 0;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav-icons a {
+    color: #2f3542;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-icons a:hover {
+    color: dodgerblue;
+}
+
+.basket__count {
+    background: #ff4757;
+    color: white;
+    border-radius: 50%;
+    padding: 0.1rem 0.4rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    position: absolute;
+    top: -8px;
+    right: -12px;
+}

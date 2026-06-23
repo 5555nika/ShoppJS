@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/src/componenets/basket/basket.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container wrapper">
+        <nav class="top-nav">
+            <h1>Корзина</h1>
+            <div class="nav-icons">
+                <a href="./" class="home"><i class="bi bi-house-door"></i></a>
+                <a href="./basket.html" class="basket">
+                    <i class="bi bi-cart3"></i>
+                    <span class="basket__count">0</span>
+                </a>
+            </div>
+        </nav>
+        <div class="cart"></div>
+        <div class="btn-wrapper">
+            <button class="btn">Оформить заказ</button>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>Подключайся к нам в телеграм <a href="https://t.me/sergey_kuznetsov"> <i class="bi bi-telegram"></i></a></p>
+            <p>Все права защищены &copy; | Помощь новичкам! | Политика конфиденциальности! </p>
+        </div>
+    </footer>
+    
+    <script type="module" defer src="src/componenets//basket/basket.ts"></script>
+    
+</body>
+</html>

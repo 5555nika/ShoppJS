@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Acer 3 gray",
+        "price": 30200,
+        "discount": 5,
+        "img": "./img/1.jpg",
+        "descr": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+        "id": 2,
+        "title": "Iphone 14 Pro max gold",
+        "price": 100200,
+        "discount": 20,
+        "img": "./img/2.jpg",
+        "descr": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+        "id": 3,
+        "title": "Lenovo 3 gray",
+        "price": 35000,
+        "discount": 5,
+        "img": "./img/3.jpg",
+        "descr": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+        "id": 4,
+        "title": "mackbook 10 gray",
+        "price": 90000,
+        "discount": 50,
+        "img": "./img/i.jpg",
+        "descr": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+        "id": 5,
+        "title": "Lenovo 5 gray",
+        "price": 30200,
+        "discount": 5,
+        "img": "./img/l.jpg",
+        "descr": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+        "id": 6,
+        "title": "Lenovo 6 gray",
+        "price": 30200,
+        "discount": 5,
+        "img": "./img/r.jpg",
+        "descr": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+        "id": 7,
+        "title": "Lenovo 7 gray",
+        "price": 30200,
+        "discount": 5,
+        "img": "./img/1.jpg",
+        "descr": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+        "id": 8,
+        "title": "Lenovo 8 gray",
+        "price": 30200,
+        "discount": 5,
+        "img": "./img/2.jpg",
+        "descr": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+        "id": 9,
+        "title": "Lenovo 9 gray",
+        "price": 30200,
+        "discount": 5,
+        "img": "./img/3.jpg",
+        "descr": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+        "id": 10,
+        "title": "Lenovo 10 gray",
+        "price": 30200,
+        "discount": 5,
+        "img": "./img/i.jpg",
+        "descr": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    }
+]
