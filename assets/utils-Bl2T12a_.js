@@ -3,4 +3,4 @@
                 <h2>⚠️ ${e}</h2>
                 <p><a href="./">Перейти к списку товаров</a></p>
             </div>
-    `)}function i(){let e=localStorage.getItem(`basket`);return e?JSON.parse(e):[]}function a(){let e=document.querySelector(`.basket__count`);e&&(e.textContent=i().length.toString())}function o(e){localStorage.setItem(`basket`,JSON.stringify(e)),a()}function s(e){let t=i(),n=t.filter(t=>e.some(e=>e.id===t));n.length===t.length?a():o(n)}export{e as a,r as i,i as n,n as o,o as r,t as s,s as t};
+    `)}function i(){let e=localStorage.getItem(`basket`);return e?JSON.parse(e):[]}function a(){let e=document.querySelector(`.basket__count`);e&&(e.textContent=i().length.toString())}function o(e){localStorage.setItem(`basket`,JSON.stringify(e)),a()}function s(e){let t=i(),n=t.filter(t=>e.some(e=>e.id===Number(t)));n.length===t.length?a():o(n)}export{e as a,r as i,i as n,n as o,o as r,t as s,s as t};
